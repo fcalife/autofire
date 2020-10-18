@@ -1,0 +1,38 @@
+"DOTAHeroes"
+{
+	"Version"		"1"
+
+	"npc_dota_hero_windrunner"
+	{
+		"Ability1"		"basic_shot"
+		"Ability2"		"windrunner_windrun"
+		"Ability3"		""
+		"Ability4"		""
+		"Ability5"		""
+		"Ability6"		""
+		"Ability7"		""
+		"Ability8"		""
+		"Ability9"		""
+		"Ability10"		"special_bonus_hp_300"
+		"Ability11"		"special_bonus_cooldown_reduction_8"
+		"Ability12"		"special_bonus_movement_speed_60"
+		"Ability13"		"special_bonus_cooldown_reduction_10"
+		"Ability14"		"special_bonus_hp_regen_30"
+		"Ability15"		"special_bonus_cooldown_reduction_15"
+		"Ability16"		"special_bonus_armor_6"
+		"Ability17"		"special_bonus_cooldown_reduction_20"
+
+		"MovementSpeed"					"300"
+		"ArmorPhysical"					"0"
+
+		"AttributeBaseStrength"			"0"
+		"AttributeStrengthGain"			"5.0"
+		"AttributeBaseIntelligence"		"0"
+		"AttributeIntelligenceGain"		"0"
+		"AttributeBaseAgility"			"0"
+		"AttributeAgilityGain"			"2.0"
+
+		"StatusHealth"					"1000"
+		"StatusMana"					"0"
+	}
+}

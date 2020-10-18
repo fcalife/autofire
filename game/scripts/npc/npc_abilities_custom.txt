@@ -1,0 +1,157 @@
+"DOTAAbilities"
+{
+	"basic_shot"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"abilities/basic_shot.lua"
+		"AbilityTextureName"			"windrunner_powershot"
+
+		"AbilityCastRange"				"900"
+		"AbilityCooldown"				"1.5"
+
+		"MaxLevel"						"1"
+	}
+
+	"dragon_shot"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"dragon_knight_elder_dragon_form"
+
+		"AbilityCastRange"				"1500"
+		"AbilityCooldown"				"2.5"
+
+		"MaxLevel"						"1"
+	}
+
+	"harpy_shot"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"harpy_storm_chain_lightning"
+
+		"AbilityCastRange"				"2000"
+		"AbilityCooldown"				"2.0"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_damage"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_damage"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_range"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_range"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_speed"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_speed"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_health"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_health"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_armor"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_armor"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_movement"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_movement"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_cooldown"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_cooldown"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_bullet"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_bullet"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_multishot"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_multishot"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_crit_up"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_crit_up"
+
+		"MaxLevel"						"1"
+	}
+
+	"upgrade_crit_pow_up"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NONE"
+		"ScriptFile"					"abilities/creep_shots.lua"
+		"AbilityTextureName"			"upgrade_crit_pow_up"
+
+		"MaxLevel"						"1"
+	}
+}

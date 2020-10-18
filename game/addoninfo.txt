@@ -1,0 +1,29 @@
+"AddonInfo"
+{
+	"TeamCount"					"1"
+	"maps"						"auto_test"
+	"IsPlayable"				"1"
+	"HeroGuidesSupported"		"0"
+	"ShouldForceDefaultGuide"	"0"
+	
+	"auto_test"
+	{
+		"MaxPlayers"	"1"
+	}
+
+	"Default_Keys"
+	{
+		//"01"
+		//{
+		//	"Key"		"A"
+		//	"Command"	"+KeyboardCommandA"
+		//	"Name"		"A Key pressed"
+		//}
+		//"02"
+		//{
+		//	"Key"		"Z"
+		//	"Command"	"+KeyboardCommandZ"
+		//	"Name"		"Z Key pressed"
+		//}
+	}
+}

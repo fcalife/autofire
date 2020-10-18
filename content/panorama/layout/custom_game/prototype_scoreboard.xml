@@ -1,0 +1,32 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/prototype_scoreboard.css" />
+	</styles>
+
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/prototype_scoreboard.js" />
+	</scripts>
+
+	<Panel style="width:100%;height:100%;" hittest="false">
+		<Panel id="scoreboard_container">
+			<Label id="round_header" text="#round_header" />
+			<Label id="round_sub_header" text="" />
+			<Label id="round_timer" text="" />
+		</Panel>
+
+		<Panel id="boon_container">
+			<DOTAAbilityImage id="boon_choice_damage" class="boon_choice" abilityname="upgrade_damage" onactivate="PickBoon('damage')" onmouseover="DOTAShowAbilityTooltip('upgrade_damage')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_range" class="boon_choice" abilityname="upgrade_range" onactivate="PickBoon('range')" onmouseover="DOTAShowAbilityTooltip('upgrade_range')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_speed" class="boon_choice" abilityname="upgrade_speed" onactivate="PickBoon('speed')" onmouseover="DOTAShowAbilityTooltip('upgrade_speed')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_health" class="boon_choice" abilityname="upgrade_health" onactivate="PickBoon('health')" onmouseover="DOTAShowAbilityTooltip('upgrade_health')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_armor" class="boon_choice" abilityname="upgrade_armor" onactivate="PickBoon('armor')" onmouseover="DOTAShowAbilityTooltip('upgrade_armor')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_movement" class="boon_choice" abilityname="upgrade_movement" onactivate="PickBoon('movement')" onmouseover="DOTAShowAbilityTooltip('upgrade_movement')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_cooldown" class="boon_choice" abilityname="upgrade_cooldown" onactivate="PickBoon('cooldown')" onmouseover="DOTAShowAbilityTooltip('upgrade_cooldown')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_bullet" class="boon_choice" abilityname="upgrade_bullet" onactivate="PickBoon('bullet')" onmouseover="DOTAShowAbilityTooltip('upgrade_bullet')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_multishot" class="boon_choice" abilityname="upgrade_multishot" onactivate="PickBoon('multishot')" onmouseover="DOTAShowAbilityTooltip('upgrade_multishot')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_crit_up" class="boon_choice" abilityname="upgrade_crit_up" onactivate="PickBoon('crit_up')" onmouseover="DOTAShowAbilityTooltip('upgrade_crit_up')" onmouseout="DOTAHideAbilityTooltip()" />"
+			<DOTAAbilityImage id="boon_choice_crit_pow_up" class="boon_choice" abilityname="upgrade_crit_pow_up" onactivate="PickBoon('crit_pow_up')" onmouseover="DOTAShowAbilityTooltip('upgrade_crit_pow_up')" onmouseout="DOTAHideAbilityTooltip()" />"
+		</Panel>
+	</Panel>
+</root>

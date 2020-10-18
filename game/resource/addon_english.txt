@@ -1,0 +1,52 @@
+"lang"
+{
+	"Language"		"English"
+
+	"Tokens"
+	{		
+		"addon_game_name"					"DUMMY PLUG PROJECT"
+
+		"round_header"						"Round {d:round}"
+
+		"npc_autofire_mechanospider"		"Mechanospider"
+		"npc_autofire_black_drake"			"Black Drake"
+		"npc_autofire_harpy"				"Harpy Storm"
+
+		"DOTA_Tooltip_ability_basic_shot"						"Basic Shot"
+		"DOTA_Tooltip_ability_basic_shot_Description"			"Shoots in the target direction. Activate autocast to automatically shoot the nearest enemy."
+		"DOTA_Tooltip_ability_basic_shot_Lore"					"As basic as it gets."
+
+		"DOTA_Tooltip_ability_upgrade_damage"					"Big Shot"
+		"DOTA_Tooltip_ability_upgrade_damage_Description"		"Increases your shot damage by +50."
+
+		"DOTA_Tooltip_ability_upgrade_range"					"Long Shot"
+		"DOTA_Tooltip_ability_upgrade_range_Description"		"Increases your shot range by +150 and speed by +200."
+
+		"DOTA_Tooltip_ability_upgrade_speed"					"Fast Shot"
+		"DOTA_Tooltip_ability_upgrade_speed_Description"		"Increases your shot projectile speed by +250."
+
+		"DOTA_Tooltip_ability_upgrade_health"					"Healthy"
+		"DOTA_Tooltip_ability_upgrade_health_Description"		"You gain +10%% health."
+
+		"DOTA_Tooltip_ability_upgrade_armor"					"Heavy Armor"
+		"DOTA_Tooltip_ability_upgrade_armor_Description"		"You gain +3 armor."
+
+		"DOTA_Tooltip_ability_upgrade_movement"					"Nimble"
+		"DOTA_Tooltip_ability_upgrade_movement_Description"		"Increases your movement speed by +35"
+
+		"DOTA_Tooltip_ability_upgrade_cooldown"					"Quickshot"
+		"DOTA_Tooltip_ability_upgrade_cooldown_Description"		"Improves your abilities' cooldown by 15%%"
+
+		"DOTA_Tooltip_ability_upgrade_bullet"					"Spread Shot"
+		"DOTA_Tooltip_ability_upgrade_bullet_Description"		"Adds +1 projectile per shot. Capped at 12 projectiles maximum."
+
+		"DOTA_Tooltip_ability_upgrade_multishot"				"Multishot"
+		"DOTA_Tooltip_ability_upgrade_multishot_Description"	"Allows you to shoot +1 time with each shot. Capped at 3 extra shots (4 total)."
+
+		"DOTA_Tooltip_ability_upgrade_crit_up"					"Vicious Arrows"
+		"DOTA_Tooltip_ability_upgrade_crit_up_Description"		"Increases crit chance by 4%%"
+
+		"DOTA_Tooltip_ability_upgrade_crit_pow_up"				"Barbed Arrows"
+		"DOTA_Tooltip_ability_upgrade_crit_pow_up_Description"	"Increases crit damage by +25%%"
+	}
+}
